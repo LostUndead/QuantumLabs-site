@@ -1,2 +1,2 @@
 # QuantumLabs-site
-My first project site
+Site made with HTML and CSS
