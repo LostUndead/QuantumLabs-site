@@ -121,3 +121,8 @@ section.sobre{
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
 }
+
+.texto-sobre a{
+    background-color: darkorchid;
+    color: white;
+}
