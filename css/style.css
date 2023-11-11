@@ -94,4 +94,13 @@ section.sobre{
 
 .texto-sobre{
     color: white;
+    margin-top: 50px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+p{
+    color: white;
 }
