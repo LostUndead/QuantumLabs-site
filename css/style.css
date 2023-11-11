@@ -99,8 +99,25 @@ section.sobre{
 
 .texto-sobre h1{
     font-size: 50px;
+    font-family: 'Oswald', sans-serif;
 }
 
-p{
+.texto-sobre p{
+    margin: 20px 0;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 800px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
 }
