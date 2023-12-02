@@ -48,6 +48,8 @@ header{
 h1{
     color: #FFF;
     text-align: center;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .slider{
@@ -98,6 +100,7 @@ h1{
 .slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
@@ -110,6 +113,7 @@ h1{
     margin-top: 350px;
     display: flex;
     justify-content: center;
+    background-color: #000000;
 }
 
 .manual-btn{
@@ -125,7 +129,7 @@ h1{
 }
 
 .manual-btn:hover{
-    background-color: transparent;
+    background-color: #FFF;
 }
 
 #radio1:checked ~.slide_1{
@@ -142,4 +146,51 @@ h1{
 
 #radio4:checked ~.slide_1{
     margin-left: -320%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 650px;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF;
+}
+
+.texto1{
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.texto1 p{
+    bottom: 20px;
 }
