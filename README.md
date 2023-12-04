@@ -1,2 +1,2 @@
 # QuantumLabs-site
-Site made with HTML and CSS
+Site made with HTML, CSS and Javascript
